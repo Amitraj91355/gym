@@ -1,0 +1,262 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #fff; 
+    color: #333; 
+}
+
+/* Header styles */
+/* Navbar styles */
+header{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+
+}
+.navbar {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff; 
+    padding: 1rem 1.5rem; 
+}
+
+.logo {
+    font-size: 1.5rem; 
+    font-weight: 540;
+    color: #333; 
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+
+.navbar li {
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease; 
+}
+
+.navbar li:hover {
+    text-decoration: underline;
+}
+
+.navbar button.btn {
+    background-color: #fff; 
+    color: #007bff;
+    border: 1px solid #007bff;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navbar button.btn:hover {
+    background-color: #007bff; 
+    color: #fff;
+}
+
+
+/* Main content styles */
+/* Section 1 styles */
+.section1 {
+    display: flex;
+    width: 90%;
+    height: 90vh;
+    margin: auto;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff; 
+    padding: 10px; 
+}
+
+.right {
+    padding: 10px;
+}
+
+.dumbellimg {
+    max-width: 100%;
+    max-height: 350px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+.section1 h1 {
+    color: #007bff;
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+.section1 p {
+    width: 50%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.deal {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+/* Section 2 styles */
+.section2 {
+    background-color: #fff;
+    padding: 40px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2 h1 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+    color: #333;
+}
+
+.section2 p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.boxes {
+    display: flex;
+    width: 850px;
+    justify-content: space-evenly; 
+    flex-wrap: wrap; 
+}
+
+.box {
+    padding: 20px;
+    width: calc(30% - 0px); 
+    min-height: 300px; 
+    margin: 20px 0; 
+    border: 2px solid #784310;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+.box ul li{
+    line-height: 2rem;
+    padding-left: 2.5rem;
+    text-align: start;
+    list-style: none;
+}
+/* Section 3 styles */
+.section3 {
+    background-color: #f7f7f7; 
+    padding: 40px;
+    width: 70%;
+    margin: auto;
+}
+
+.section3 h1 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+    color: #333;
+    text-align: center; 
+}
+
+.plantable {
+    overflow-x: auto; 
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    border: 1px solid #ddd; 
+    text-align: center; 
+}
+
+.table th {
+    background-color: #007bff; 
+    color: #fff; 
+}
+
+.table th:first-child,
+.table td:first-child {
+    text-align: left;
+}
+
+/* Add some spacing to the table rows */
+.table tr:not(:first-child) {
+    margin-top: 10px;
+}
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+/* Button styles */
+.btn {
+    color: #007bff;
+    border: 1px solid #007bff;
+    background: #fff;
+    margin: 10px;
+    border-radius: 4px;
+    padding: 12px 24px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Additional utility classes for spacing */
+.my-1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.my-2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.px-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
